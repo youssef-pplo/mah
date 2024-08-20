@@ -79,8 +79,8 @@ $(document).ready(function () {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ["الرئيسيه", "من", "كتب", "تواصل معنا", "ببلو"],
-    anchors: ["الرئيسيه", "من", "كتب", "تواصل معنا", "ببلو"],
+    navigationTooltips: ["home", "about", "portfolio", "contact", "connect"],
+    anchors: ["home", "about", "portfolio", "contact", "connect"],
     menu: "#myMenu",
     fitToSection: false,
 
