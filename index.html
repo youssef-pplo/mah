@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <!-- navbar header -->
+  <div class="nav-header">
+    <div class="nav-brand">
+      <a href="https://pplo.dev">by PPLO</a>
+    </div>
+    <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="fourthPage"><a href="#contact">تواصل معنا</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">كتب</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">من؟</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end navbar header -->
+
+  <!-- sidebar slider -->
+  <div class="nav-screen">
+    <i class="fa fa-times fa-3x"></i>
+    <div class="nav-container">
+      <div class="nav-links">
+        <ul id='myMenu'>
+          <li data-menuanchor="secondPage"><a href="#about">من؟</a></li>
+          <li data-menuanchor="thirdPage"><a href="#portfolio">كتب</a></li>
+          <li data-menuanchor="fourthPage"><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end navbar slider -->
+
+  <!-- begin fullpage -->
+
+  <div id="fullpage">
+
+    <!-- begin section -->
+
+    <div class="section aboutme" data-anchor="aboutme">
+      <div class="opaque-bg animated fadeInDown">
+        <h1 style="color:white">محمود<span style="color:#FF6363">/</span>الضمراني</h1>
+        <p><span class="blinking-cursor">|</span><span id="holder"></span></p>
+      </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="skills">
+      <div class="content">
+        <h1 class="wow fadeInDown" data-wow-delay="0.2s">من هو أ/<b>محمود الضمراني</b></h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s">محمود الضمراني هو مدرس اول لغه عربيه من الصف الرائع الابتدائي حتي الثالث الثانوي <br> له العديد من المؤلفات والكتب مثل 
+          <br>
+          سلسة الياقوتة
+          <br>
+          الخلاصة الضمرانية في نحو الثانوية
+          <br>
+          يتميز شرح الاستائ محمود الضمراني بالكثير من المميزات منها شرح مفصل ،اسلوب عصري والكثير من المميزات الاخري
+          <br>
+          يجعل الطالب عاشقا ومتمتعا باللغة العربية
+        </p>
+
+        <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+     
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="projects">
+      <div class="content-slide">
+        <div class="slide">
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">الخلاصة الضمرانية</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">في نحو الثانوية</p>
+          <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="p2.png" width="200px">
+        </div>
+        
+      </div>
+      <div class="slide">
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">الياقوتة</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">في اللغة العربية</p>
+          <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="p3.png" width="200px">
+        </div>
+
+      </div>
+  
+    </div>
+  
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="contact">
+      <div class="content wow fadeInDown" data-wow-delay="0.2s">
+        <h1>تواصل معنا</h1>
+        <p>لو واجهتك اي مشكله او عندك اي اقتراح متررددش وابعتلنا</p>
+        <br>
+        <div class="contact-form">
+
+          <div id="form-messages"></div>
+          <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+              <input type="text" class="form-control" id="name" name="name" placeholder="اسمك" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+              <input type="email" class="form-control" id="email" name="email" placeholder="ايميلك" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.8s">
+              <input type="text" class="form-control" id="name" name="name" placeholder="رقم تيليفونك" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="1s">
+              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="رسالتك" data-error="Minimum of 10 characters" required></textarea>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="hidden">
+              <input type="text" class="form-control" id="human" name="human" placeholder="">
+            </div>
+            <div class="wow fadeInUp" data-wow-delay="1s">
+              <button type="submit" id="submit" name="submit" class="btn btn-lg">ابعت الرساله</button>
+            </div>
+          </form>
+          <br>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section fp-auto-height">
+      <div class="footer">
+        <p>by PPLO</p>
+        <div class="social-links">
+          <span><a href="https://github.com/youssef-pplo" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>|
+          <span><a target="_blank" href="https://instagram.com/pplo.dev" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></span>|
+          <span><a href="https://i3rbly.pplo.dev" target="_blank"> أعربلي </span>|
+          <span><a href="https://pplo.dev" target="_blank"> pplo.dev </span>|
+
+          <span style="color: white;">01091734838</span>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+  </div>
+  <!-- end fullpage -->
+</body>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
